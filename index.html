@@ -76,7 +76,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#cpp中的并发与多线程</p>
+        <p>#titile:cpp中的并发与多线程</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">titile cpp中的并发与多线程</span><br></pre></td></tr></table></figure>
+
+
+
 <h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><h5 id="并发：一个程序中处理两个或更多的任务（假并发）"><a href="#并发：一个程序中处理两个或更多的任务（假并发）" class="headerlink" title="并发：一个程序中处理两个或更多的任务（假并发）"></a>并发：一个程序中处理两个或更多的任务（假并发）</h5><h5 id="并行：-多核cpu真正并行执行多个任务（硬件并发）"><a href="#并行：-多核cpu真正并行执行多个任务（硬件并发）" class="headerlink" title="并行： 多核cpu真正并行执行多个任务（硬件并发）"></a>并行： 多核cpu真正并行执行多个任务（硬件并发）</h5><p>​    并发有多种实现方法，包括多线程并发，多进程并发等。本文章中若无特殊说明，并发都是指的多线程并发。</p>
 <h5 id="进程：正在运行的可执行程序"><a href="#进程：正在运行的可执行程序" class="headerlink" title="进程：正在运行的可执行程序"></a>进程：正在运行的可执行程序</h5><h5 id="线程：-CPU分配资源的基本单位"><a href="#线程：-CPU分配资源的基本单位" class="headerlink" title="线程： CPU分配资源的基本单位"></a>线程： CPU分配资源的基本单位</h5><p>​    每个进程必定有一个主线程，主线程结束时，进程结束，同时所有其他子线程结束（一般情况）。</p>
 <p>​    一个进程中的多线程共享地址空间，即环境变量、全局指针、引用等都可以在多个线程之间传递，多线程开销也小于多进程。但多个线程共享空间，带来地便是数据一致性地问题，如何管理多个线程对地址空间地读写，在后文中会涉及。</p>
@@ -100,7 +104,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/26/cpp%E4%B8%AD%E7%9A%84%E5%B9%B6%E5%8F%91%E4%B8%8E%E5%A4%9A%E7%BA%BF%E7%A8%8B/" data-id="ckfjgh2py00013guw8r3edw3d" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2020/09/26/cpp%E4%B8%AD%E7%9A%84%E5%B9%B6%E5%8F%91%E4%B8%8E%E5%A4%9A%E7%BA%BF%E7%A8%8B/" data-id="ckfjgjool0001b8uwbuoebp83" class="article-share-link">Share</a>
       
       
     </footer>
@@ -149,7 +153,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2020/09/26/hello-world/" data-id="ckfjgh2q700023guw5p5y9k67" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2020/09/26/hello-world/" data-id="ckfjgjoop0002b8uw424r8nb4" class="article-share-link">Share</a>
       
       
     </footer>
